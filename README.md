@@ -10,7 +10,7 @@ To help you create professional and visually consistent content, this academy pr
 
 ### How to Use the Icons
 
-1. **Import the Model:** Navigate to your **[Registry Settings in Meshery](https://kanvas.new/settings?settingsCategory=Registry&tab=Models)**.
+1. **Import the  Model:** Navigate to your **[Registry Settings in Meshery](https://kanvas.new/settings?settingsCategory=Registry&tab=Models)**.
 2. Select "Import from URL".
 3. Paste the following URL to import the icon set:
 
