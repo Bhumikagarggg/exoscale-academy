@@ -6,7 +6,7 @@ Welcome to **Exoscale Academy**, the dedicated cloud education and training plat
 
 To help you create professional and visually consistent content, this academy provides the official **Exoscale Icons** model for building custom architecture diagrams.
 
-> You can preview the full collection of icons anytime on the [**Meshery Catalog**](https://meshery.io/catalog/models/exoscale-icons).
+> You can preview the full co llection of icons anytime on the [**Meshery Catalog**](https://meshery.io/catalog/models/exoscale-icons).
 
 ### How to Use the Icons
 
