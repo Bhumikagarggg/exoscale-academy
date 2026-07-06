@@ -58,18 +58,16 @@ build-preview: check-go check-deps
 	npm run build:preview
 
 ## Build and run site locally with draft and future content enabled.
-serve: check-go check-deps
-	npm run serve
-
-## Build and run site locally
 site: check-go check-deps
 	npm run site
+
+## Build and run site locally
+serve: check-go check-deps
+	npm run serve
 
 ## Empty build cache and run on your local machine.
 clean:
 	npm run clean
-	$(MAKE) setup
-	$(MAKE) site
 
 ## Format code using Prettier
 format:
@@ -77,14 +75,7 @@ format:
 
 ## Fix Markdown linting issues
 lint-fix:
-	@echo "Checking for markdownlint-cli2..."
-	@command -v markdownlint-cli2 > /dev/null || { \
-		echo "markdownlint-cli2 not found. Attempting to install globally..."; \
-		command -v npm > /dev/null || { echo "npm is not installed. Please install Node.js/npm and re-run 'make lint-fix'."; exit 1; }; \
-		npm install -g markdownlint-cli2; \
-	}
-	@echo "Running markdownlint-cli2 --fix..."
-	@markdownlint-cli2 --fix "**/*.md" "#node_modules" "#public" "#resources"
+	npm run lint:fix
 
 .PHONY: \
 	setup \
